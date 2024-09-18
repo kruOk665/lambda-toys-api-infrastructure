@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "location": {
+        "value": "northeurope"
+      },
+      "prefix": {
+        "value": "lmbd-dev"
+      },
+
+      "vNetid": {
+        "value": "/subscriptions/cf0f4b9f-4747-4058-86f2-27f97c51507e/resourceGroups/lambda-api-dev/providers/Microsoft.Network/virtualNetworks/lmbd-dev-vnet"
+      }
+    }
+  }
+  
